@@ -55,7 +55,10 @@
           <a-entity id="head" camera position="0 1.6 0"></a-entity>
         </a-entity>
       </a-entity>
-      <a-gltf-model class="ground" src="https://nishikawa904.github.io/asset/object/caffelikesmall.glb" position="2 0.25 -4"></a-gltf-model>
+      <a-assets>
+        <a-asset-item id="caffelike1" src="https://nishikawa904.github.io/asset/object/caffelikesmall.glb"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="#caffelike1" position="2 0.25 -4"></a-entity>
     </a-scene>
   </body>
 </html>
